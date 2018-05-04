@@ -8,19 +8,29 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.JsonObject;
+
 import packega.PreuzimanjeZemalja;
+import packega.Serijalizacija;
+import packega.URLConnectionUtil;
 import packega.Zemlja;
 
 import javax.swing.JComboBox;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.io.IOException;
+import java.awt.event.ActionEvent;
 
 public class Menjacnica extends JFrame {
 
 	private JPanel contentPane;
-	private JTextField textField;
-	private JTextField textField_1;
+	private JTextField iznos1;
+	private JTextField iznos2;
 	
 	/**
 	 * Launch the application.
@@ -79,17 +89,64 @@ public class Menjacnica extends JFrame {
 		lblNewLabel_3.setBounds(254, 137, 46, 14);
 		contentPane.add(lblNewLabel_3);
 		
-		textField = new JTextField();
-		textField.setBounds(45, 173, 86, 20);
-		contentPane.add(textField);
-		textField.setColumns(10);
+		iznos1 = new JTextField();
+		iznos1.setBounds(45, 173, 86, 20);
+		contentPane.add(iznos1);
+		iznos1.setColumns(10);
 		
-		textField_1 = new JTextField();
-		textField_1.setBounds(254, 173, 86, 20);
-		contentPane.add(textField_1);
-		textField_1.setColumns(10);
+		iznos2 = new JTextField();
+		iznos2.setBounds(254, 173, 86, 20);
+		contentPane.add(iznos2);
+		iznos2.setColumns(10);
 		
 		JButton btnNewButton = new JButton("Konvertuj");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				String d1=comboBox.getSelectedItem().toString();
+				String d2=comboBox_1.getSelectedItem().toString();
+				String v1=null;
+				String v2=null;
+				double iznos=0;
+				if(iznos1.getText().equals("")) {
+					JOptionPane.showMessageDialog(contentPane,
+							"unesite iznos","Greska",
+							JOptionPane.INFORMATION_MESSAGE);
+				}else {
+					iznos=Double.parseDouble(iznos1.getText());
+				}
+				for(int i=0;i<elementi.size();i++) {
+					if(elementi.get(i).getName().equals(d1))
+						v1=elementi.get(i).getCurrencyId().toString();
+					if(elementi.get(i).getName().equals(d2))
+						v2=elementi.get(i).getCurrencyId().toString();
+				}
+				String url="http://free.currencyconverterapi.com/api/v3/convert?q="+v1+"_"+v2;
+				String string;
+				try {
+					string = URLConnectionUtil.getContent(url);
+					Gson gson = new GsonBuilder().create();
+					JsonObject jsonResult = gson.fromJson(string, JsonObject.class);
+					JsonObject query = (JsonObject) jsonResult.getAsJsonObject("query");
+					int a=query.get("count").getAsInt();
+					if(a==0) {
+						JOptionPane.showMessageDialog(contentPane,
+								"Ne postoji odnos valuta","Greska",
+								JOptionPane.INFORMATION_MESSAGE);
+					}
+					else {
+						JsonObject results = (JsonObject) jsonResult.getAsJsonObject("results");
+						JsonObject result = (JsonObject) results.getAsJsonObject(v1+"_"+v2);
+						double odnos=result.get("val").getAsDouble();
+						iznos2.setText(""+odnos*iznos);
+						Serijalizacija.serijalizuj(v1, v2, odnos);
+					}
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				
+			}
+		});
 		btnNewButton.setBounds(150, 214, 89, 23);
 		contentPane.add(btnNewButton);
 	}

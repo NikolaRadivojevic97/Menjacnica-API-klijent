@@ -1,0 +1,46 @@
+[
+  {
+    "izValuta": "XOF",
+    "uValuta": "BDT",
+    "kurs": 0.153622
+  },
+  {
+    "izValuta": "BDT",
+    "uValuta": "KHR",
+    "kurs": 47.571054
+  },
+  {
+    "izValuta": "KHR",
+    "uValuta": "KWD",
+    "kurs": 7.4983731E-5
+  },
+  {
+    "izValuta": "XOF",
+    "uValuta": "AFN",
+    "kurs": 0.127988
+  },
+  {
+    "datumVreme": "java.util.GregorianCalendar[time\u003d1525442316478,areFieldsSet\u003dtrue,areAllFieldsSet\u003dtrue,lenient\u003dtrue,zone\u003dsun.util.calendar.ZoneInfo[id\u003d\"Europe/Prague\",offset\u003d3600000,dstSavings\u003d3600000,useDaylight\u003dtrue,transitions\u003d141,lastRule\u003djava.util.SimpleTimeZone[id\u003dEurope/Prague,offset\u003d3600000,dstSavings\u003d3600000,useDaylight\u003dtrue,startYear\u003d0,startMode\u003d2,startMonth\u003d2,startDay\u003d-1,startDayOfWeek\u003d1,startTime\u003d3600000,startTimeMode\u003d2,endMode\u003d2,endMonth\u003d9,endDay\u003d-1,endDayOfWeek\u003d1,endTime\u003d3600000,endTimeMode\u003d2]],firstDayOfWeek\u003d1,minimalDaysInFirstWeek\u003d1,ERA\u003d1,YEAR\u003d2018,MONTH\u003d4,WEEK_OF_YEAR\u003d18,WEEK_OF_MONTH\u003d1,DAY_OF_MONTH\u003d4,DAY_OF_YEAR\u003d124,DAY_OF_WEEK\u003d6,DAY_OF_WEEK_IN_MONTH\u003d1,AM_PM\u003d1,HOUR\u003d3,HOUR_OF_DAY\u003d15,MINUTE\u003d58,SECOND\u003d36,MILLISECOND\u003d478,ZONE_OFFSET\u003d3600000,DST_OFFSET\u003d3600000]",
+    "izValuta": "BRL",
+    "uValuta": "AUD",
+    "kurs": 0.377312
+  },
+  {
+    "datumVreme": "java.util.GregorianCalendar[time\u003d1525442319606,areFieldsSet\u003dtrue,areAllFieldsSet\u003dtrue,lenient\u003dtrue,zone\u003dsun.util.calendar.ZoneInfo[id\u003d\"Europe/Prague\",offset\u003d3600000,dstSavings\u003d3600000,useDaylight\u003dtrue,transitions\u003d141,lastRule\u003djava.util.SimpleTimeZone[id\u003dEurope/Prague,offset\u003d3600000,dstSavings\u003d3600000,useDaylight\u003dtrue,startYear\u003d0,startMode\u003d2,startMonth\u003d2,startDay\u003d-1,startDayOfWeek\u003d1,startTime\u003d3600000,startTimeMode\u003d2,endMode\u003d2,endMonth\u003d9,endDay\u003d-1,endDayOfWeek\u003d1,endTime\u003d3600000,endTimeMode\u003d2]],firstDayOfWeek\u003d1,minimalDaysInFirstWeek\u003d1,ERA\u003d1,YEAR\u003d2018,MONTH\u003d4,WEEK_OF_YEAR\u003d18,WEEK_OF_MONTH\u003d1,DAY_OF_MONTH\u003d4,DAY_OF_YEAR\u003d124,DAY_OF_WEEK\u003d6,DAY_OF_WEEK_IN_MONTH\u003d1,AM_PM\u003d1,HOUR\u003d3,HOUR_OF_DAY\u003d15,MINUTE\u003d58,SECOND\u003d39,MILLISECOND\u003d606,ZONE_OFFSET\u003d3600000,DST_OFFSET\u003d3600000]",
+    "izValuta": "BDT",
+    "uValuta": "AUD",
+    "kurs": 0.015791
+  },
+  {
+    "datumVreme": "java.util.GregorianCalendar[time\u003d1525442321873,areFieldsSet\u003dtrue,areAllFieldsSet\u003dtrue,lenient\u003dtrue,zone\u003dsun.util.calendar.ZoneInfo[id\u003d\"Europe/Prague\",offset\u003d3600000,dstSavings\u003d3600000,useDaylight\u003dtrue,transitions\u003d141,lastRule\u003djava.util.SimpleTimeZone[id\u003dEurope/Prague,offset\u003d3600000,dstSavings\u003d3600000,useDaylight\u003dtrue,startYear\u003d0,startMode\u003d2,startMonth\u003d2,startDay\u003d-1,startDayOfWeek\u003d1,startTime\u003d3600000,startTimeMode\u003d2,endMode\u003d2,endMonth\u003d9,endDay\u003d-1,endDayOfWeek\u003d1,endTime\u003d3600000,endTimeMode\u003d2]],firstDayOfWeek\u003d1,minimalDaysInFirstWeek\u003d1,ERA\u003d1,YEAR\u003d2018,MONTH\u003d4,WEEK_OF_YEAR\u003d18,WEEK_OF_MONTH\u003d1,DAY_OF_MONTH\u003d4,DAY_OF_YEAR\u003d124,DAY_OF_WEEK\u003d6,DAY_OF_WEEK_IN_MONTH\u003d1,AM_PM\u003d1,HOUR\u003d3,HOUR_OF_DAY\u003d15,MINUTE\u003d58,SECOND\u003d41,MILLISECOND\u003d873,ZONE_OFFSET\u003d3600000,DST_OFFSET\u003d3600000]",
+    "izValuta": "XAF",
+    "uValuta": "AUD",
+    "kurs": 0.002426
+  },
+  {
+    "datumVreme": "1-2-510:12:13",
+    "izValuta": "BRL",
+    "uValuta": "BDT",
+    "kurs": 23.892255
+  }
+]

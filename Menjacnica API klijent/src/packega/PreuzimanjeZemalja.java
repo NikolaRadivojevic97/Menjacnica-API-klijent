@@ -22,14 +22,15 @@ public class PreuzimanjeZemalja {
 		        String keyStr = (String)key;
 		        JsonObject zemlja=(JsonObject)rezultat.get(keyStr);
 		        Zemlja z=new Zemlja();
-		        z.setAlpha3(zemlja.get("alpha3").getAsString());
+		        z=gson.fromJson(zemlja, Zemlja.class);
+		        /*z.setAlpha3(zemlja.get("alpha3").getAsString());
 		        z.setCurrencyId(zemlja.get("currencyId").getAsString());
 		        z.setCurrencyName(zemlja.get("currencyName").getAsString());
 		        if(zemlja.get("currencySymbol")!=null) {
 		        	z.setCurrencySymbol(zemlja.get("currencySymbol").getAsString());
 		        }
 		        z.setId(zemlja.get("id").getAsString());
-		        z.setName(zemlja.get("name").getAsString());
+		        z.setName(zemlja.get("name").getAsString());*/
 		        zemlje.add(z);
 			}
 		} catch (IOException e) {
