@@ -42,5 +42,74 @@
     "izValuta": "BRL",
     "uValuta": "BDT",
     "kurs": 23.892255
+  },
+  {
+    "datumVreme": "1-2-510:12:13.14",
+    "izValuta": "MUR",
+    "uValuta": "AFN",
+    "kurs": 2.057017
+  },
+  {
+    "datumVreme": "1-2-510:12:13.14",
+    "izValuta": "MUR",
+    "uValuta": "AFN",
+    "kurs": 2.057017
+  },
+  {
+    "datumVreme": "1-2-510:12:13.14",
+    "izValuta": "MUR",
+    "uValuta": "AFN",
+    "kurs": 2.057017
+  },
+  {
+    "datumVreme": "1-2-510:12:13.14",
+    "izValuta": "EUR",
+    "uValuta": "RSD",
+    "kurs": 117.361966
+  },
+  {
+    "datumVreme": "java.text.SimpleDateFormat@a9427c06",
+    "izValuta": "AFN",
+    "uValuta": "AFN",
+    "kurs": 1.0
+  },
+  {
+    "datumVreme": "1-2",
+    "izValuta": "AFN",
+    "uValuta": "AFN",
+    "kurs": 1.0
+  },
+  {
+    "izValuta": "AFN",
+    "uValuta": "AFN",
+    "kurs": 1.0
+  },
+  {
+    "izValuta": "AFN",
+    "uValuta": "AFN",
+    "kurs": 1.0
+  },
+  {
+    "izValuta": "AFN",
+    "uValuta": "AFN",
+    "kurs": 1.0
+  },
+  {
+    "datumVreme": "2018-4-4 4:13.708",
+    "izValuta": "KHR",
+    "uValuta": "AFN",
+    "kurs": 0.017514
+  },
+  {
+    "datumVreme": "2018-4-4 4:49.240",
+    "izValuta": "AFN",
+    "uValuta": "AFN",
+    "kurs": 1.0
+  },
+  {
+    "datumVreme": "2018-4-4 4:46:56.166",
+    "izValuta": "AFN",
+    "uValuta": "AFN",
+    "kurs": 1.0
   }
 ]

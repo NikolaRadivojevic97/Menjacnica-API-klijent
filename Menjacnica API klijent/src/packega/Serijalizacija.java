@@ -4,6 +4,7 @@ import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.PrintWriter;
+import java.util.Calendar;
 import java.util.GregorianCalendar;
 
 import com.google.gson.Gson;
@@ -19,11 +20,10 @@ public class Serijalizacija {
 			niz = gson.fromJson(reader, JsonArray.class);
 		} catch (Exception e) {}
 		
-		GregorianCalendar vreme=new GregorianCalendar();
-		
+		GregorianCalendar date=new GregorianCalendar();
 		JsonObject obj = new JsonObject();
-		obj.addProperty("datumVreme",vreme.YEAR+"-"+vreme.MONTH+"-"+vreme.DAY_OF_MONTH+""+vreme.HOUR+":"+vreme.MINUTE+":"+vreme.SECOND+"."+vreme.MILLISECOND );
-		obj.addProperty("izValuta",valuta1 );
+		obj.addProperty("datumVreme",date.get(Calendar.YEAR)+"-"+date.get(Calendar.MONTH)+"-"+date.get(Calendar.DAY_OF_MONTH)+" "+date.get(Calendar.HOUR)+":"+date.get(Calendar.MINUTE)+":"+date.get(Calendar.SECOND)+"."+date.get(Calendar.MILLISECOND));
+		obj.addProperty("izValuta",valuta1 ); 
 		obj.addProperty("uValuta",valuta2 );
 		obj.addProperty("kurs", odnos);
 		niz.add(obj);

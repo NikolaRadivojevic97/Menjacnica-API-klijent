@@ -1,6 +1,5 @@
 package menjacnica.gui;
 
-import java.awt.BorderLayout;
 import java.awt.EventQueue;
 import java.util.LinkedList;
 
