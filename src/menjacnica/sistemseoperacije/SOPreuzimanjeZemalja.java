@@ -1,4 +1,4 @@
-package packega;
+package menjacnica.sistemseoperacije;
 import java.io.IOException;
 import java.util.LinkedList;
 
@@ -6,10 +6,13 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
 
-public class PreuzimanjeZemalja {
+import menjacnica.URLConnectionUtil;
+import menjacnica.Zemlja;
+
+public class SOPreuzimanjeZemalja {
 		
 	
-	public static LinkedList<Zemlja> preuzmi() {
+	public static LinkedList<Zemlja> izvrsi() {
 		LinkedList<Zemlja> zemlje=new LinkedList<Zemlja>();
 		try {
 			

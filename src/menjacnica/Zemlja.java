@@ -1,4 +1,4 @@
-package packega;
+package menjacnica;
 
 
 public class Zemlja {

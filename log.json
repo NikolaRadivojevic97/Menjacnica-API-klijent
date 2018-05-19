@@ -111,5 +111,263 @@
     "izValuta": "AFN",
     "uValuta": "AFN",
     "kurs": 1.0
+  },
+  {
+    "datumVreme": "2018-4-19 5:16:31.452",
+    "izValuta": "BDT",
+    "uValuta": "XOF",
+    "kurs": 6.667588
+  },
+  {
+    "datumVreme": "2018-4-19 6:27:34.226",
+    "izValuta": "BRL",
+    "uValuta": "KHR",
+    "kurs": 1080.460073
+  },
+  {
+    "datumVreme": "2018-4-19 7:19:55.125",
+    "izValuta": "Australia",
+    "uValuta": "Brazil",
+    "kurs": 0.0
+  },
+  {
+    "datumVreme": "2018-4-19 7:21:29.953",
+    "izValuta": "Cambodia",
+    "uValuta": "Bangladesh",
+    "kurs": 0.26884
+  },
+  {
+    "datumVreme": "2018-4-19 7:21:38.44",
+    "izValuta": "Benin",
+    "uValuta": "Luxembourg",
+    "kurs": 0.019838
+  },
+  {
+    "datumVreme": "2018-4-19 7:21:46.355",
+    "izValuta": "Benin",
+    "uValuta": "Luxembourg",
+    "kurs": 0.0
+  },
+  {
+    "datumVreme": "2018-4-19 7:21:57.257",
+    "izValuta": "Benin",
+    "uValuta": "Luxembourg",
+    "kurs": 0.0
+  },
+  {
+    "datumVreme": "2018-4-19 7:24:56.190",
+    "izValuta": "Benin",
+    "uValuta": "Afghanistan",
+    "kurs": 0.0
+  },
+  {
+    "datumVreme": "2018-4-19 7:49:27.280",
+    "izValuta": "Brazil",
+    "uValuta": "Benin",
+    "kurs": 1787.7643079999998
+  },
+  {
+    "datumVreme": "2018-4-19 7:49:35.966",
+    "izValuta": "Norway",
+    "uValuta": "Benin",
+    "kurs": 823.3295519999999
+  },
+  {
+    "datumVreme": "2018-4-19 7:51:32.768",
+    "izValuta": "Benin",
+    "uValuta": "Bangladesh",
+    "kurs": 1.7997480000000001
+  },
+  {
+    "datumVreme": "2018-4-19 7:51:39.357",
+    "izValuta": "Portugal",
+    "uValuta": "Norway",
+    "kurs": 114.64371599999998
+  },
+  {
+    "datumVreme": "2018-4-19 7:56:21.287",
+    "izValuta": "Myanmar",
+    "uValuta": "Afghanistan",
+    "kurs": 0.632736
+  },
+  {
+    "datumVreme": "2018-4-19 7:56:48.806",
+    "izValuta": "Brazil",
+    "uValuta": "Afghanistan",
+    "kurs": 228.395328
+  },
+  {
+    "datumVreme": "2018-4-19 7:56:58.201",
+    "izValuta": "Brazil",
+    "uValuta": "Afghanistan",
+    "kurs": 0.0
+  },
+  {
+    "datumVreme": "2018-4-19 7:57:4.885",
+    "izValuta": "Brazil",
+    "uValuta": "Afghanistan",
+    "kurs": 0.0
+  },
+  {
+    "datumVreme": "2018-4-19 7:57:48.490",
+    "izValuta": "Spain",
+    "uValuta": "Afghanistan",
+    "kurs": 1172.374784
+  },
+  {
+    "datumVreme": "2018-4-19 7:57:55.876",
+    "izValuta": "Spain",
+    "uValuta": "Afghanistan",
+    "kurs": 0.0
+  },
+  {
+    "datumVreme": "2018-4-19 7:58:0.315",
+    "izValuta": "Spain",
+    "uValuta": "Afghanistan",
+    "kurs": 0.0
+  },
+  {
+    "datumVreme": "2018-4-19 7:59:42.61",
+    "izValuta": "Afghanistan",
+    "uValuta": "Afghanistan",
+    "kurs": 1.0
+  },
+  {
+    "datumVreme": "2018-4-19 7:59:47.500",
+    "izValuta": "Afghanistan",
+    "uValuta": "Afghanistan",
+    "kurs": 0.0
+  },
+  {
+    "datumVreme": "2018-4-19 8:0:20.336",
+    "izValuta": "Afghanistan",
+    "uValuta": "Afghanistan",
+    "kurs": 123.0
+  },
+  {
+    "datumVreme": "2018-4-19 8:0:21.476",
+    "izValuta": "Afghanistan",
+    "uValuta": "Afghanistan",
+    "kurs": 123.0
+  },
+  {
+    "datumVreme": "2018-4-19 8:3:51.623",
+    "izValuta": "Afghanistan",
+    "uValuta": "Afghanistan",
+    "kurs": 1.0
+  },
+  {
+    "datumVreme": "2018-4-19 8:4:12.862",
+    "izValuta": "Afghanistan",
+    "uValuta": "Afghanistan",
+    "kurs": 0.0
+  },
+  {
+    "datumVreme": "2018-4-19 8:5:24.652",
+    "izValuta": "Afghanistan",
+    "uValuta": "Afghanistan",
+    "kurs": 1.0
+  },
+  {
+    "datumVreme": "2018-4-19 8:5:30.225",
+    "izValuta": "Afghanistan",
+    "uValuta": "Afghanistan",
+    "kurs": "NaN"
+  },
+  {
+    "datumVreme": "2018-4-19 8:8:31.633",
+    "izValuta": "Afghanistan",
+    "uValuta": "Afghanistan",
+    "kurs": 0.0
+  },
+  {
+    "datumVreme": "2018-4-19 8:9:37.564",
+    "izValuta": "Afghanistan",
+    "uValuta": "Afghanistan",
+    "kurs": 1.0
+  },
+  {
+    "datumVreme": "2018-4-19 8:9:45.574",
+    "izValuta": "Afghanistan",
+    "uValuta": "Afghanistan",
+    "kurs": 0.0
+  },
+  {
+    "datumVreme": "2018-4-19 8:13:8.722",
+    "izValuta": "Afghanistan",
+    "uValuta": "Afghanistan",
+    "kurs": 1.0
+  },
+  {
+    "datumVreme": "2018-4-19 8:13:12.139",
+    "izValuta": "Afghanistan",
+    "uValuta": "Afghanistan",
+    "kurs": 1.0
+  },
+  {
+    "datumVreme": "2018-4-19 8:15:5.179",
+    "izValuta": "Afghanistan",
+    "uValuta": "Afghanistan",
+    "kurs": 1.0
+  },
+  {
+    "datumVreme": "2018-4-19 8:15:10.476",
+    "izValuta": "Afghanistan",
+    "uValuta": "Afghanistan",
+    "kurs": 1.0
+  },
+  {
+    "datumVreme": "2018-4-19 8:15:13.403",
+    "izValuta": "Afghanistan",
+    "uValuta": "Afghanistan",
+    "kurs": 1.0
+  },
+  {
+    "datumVreme": "2018-4-19 8:17:17.618",
+    "izValuta": "Afghanistan",
+    "uValuta": "Afghanistan",
+    "kurs": 1.0
+  },
+  {
+    "datumVreme": "2018-4-19 8:17:21.359",
+    "izValuta": "Afghanistan",
+    "uValuta": "Afghanistan",
+    "kurs": 1.0
+  },
+  {
+    "datumVreme": "2018-4-19 8:17:25.865",
+    "izValuta": "Afghanistan",
+    "uValuta": "Brazil",
+    "kurs": 0.05254
+  },
+  {
+    "datumVreme": "2018-4-19 8:24:33.129",
+    "izValuta": "Afghanistan",
+    "uValuta": "Afghanistan",
+    "kurs": 1.0
+  },
+  {
+    "datumVreme": "2018-4-19 8:24:37.83",
+    "izValuta": "Afghanistan",
+    "uValuta": "Afghanistan",
+    "kurs": 1.0
+  },
+  {
+    "datumVreme": "2018-4-19 8:24:40.921",
+    "izValuta": "Afghanistan",
+    "uValuta": "Afghanistan",
+    "kurs": 1.0
+  },
+  {
+    "datumVreme": "2018-4-19 8:31:31.913",
+    "izValuta": "Afghanistan",
+    "uValuta": "Afghanistan",
+    "kurs": 1.0
+  },
+  {
+    "datumVreme": "2018-4-19 8:31:36.179",
+    "izValuta": "Afghanistan",
+    "uValuta": "Afghanistan",
+    "kurs": 1.0
   }
 ]

@@ -1,4 +1,4 @@
-package packega;
+package menjacnica.sistemseoperacije;
 
 import java.io.BufferedWriter;
 import java.io.FileReader;
@@ -12,8 +12,8 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 
-public class Serijalizacija {
-	public static void serijalizuj(String valuta1, String valuta2, double odnos) {
+public class SOSerijalizacija {
+	public static void izvrsi(String valuta1, String valuta2, double odnos) {
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		JsonArray niz=new JsonArray();
 		try (FileReader reader = new FileReader("log.json")) {
@@ -25,7 +25,11 @@ public class Serijalizacija {
 		obj.addProperty("datumVreme",date.get(Calendar.YEAR)+"-"+date.get(Calendar.MONTH)+"-"+date.get(Calendar.DAY_OF_MONTH)+" "+date.get(Calendar.HOUR)+":"+date.get(Calendar.MINUTE)+":"+date.get(Calendar.SECOND)+"."+date.get(Calendar.MILLISECOND));
 		obj.addProperty("izValuta",valuta1 ); 
 		obj.addProperty("uValuta",valuta2 );
+		if(odnos==0) {
+			obj.addProperty("kurs", "null");
+		}else {
 		obj.addProperty("kurs", odnos);
+		}
 		niz.add(obj);
 		try (PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("log.json")))) {
 					String elementi = gson.toJson(niz);
